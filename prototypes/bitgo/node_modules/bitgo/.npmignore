@@ -1,0 +1,16 @@
+.config.js
+.DS_Store
+.idea
+build
+build-chrome
+npm-debug.log
+node_modules
+coverage
+*.swp
+browser
+browser/BitGoJS-min.js
+browser/BitGoJS.js
+example/sandbox.js
+bin/server.key
+bin/server.crt
+example/test.js

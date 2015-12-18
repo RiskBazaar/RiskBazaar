@@ -1,0 +1,11 @@
+language: node_js
+before_install:
+  - npm install npm -g
+node_js:
+  - '0.10.37'
+env:
+  matrix:
+    - TEST_SUITE=test-node
+  global:
+    secure: gbQ8VqPQWU19sPvCQy0YUdgrdOK/zPPS9oBm0DQrL06mue5sd+IXGOUH/hqgSGNJxR/CbNQt7dTC6Ex0mTXHUasFlrrQUKn1Hr4Esqqqog1A2PgnuXK7AmHuXI18Cva4f8wU1h+HVMLfW9MJ+r1WtwyIg+DAdxWwDKUbIvCtIto=
+script: npm run $TEST_SUITE
