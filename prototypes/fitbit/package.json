@@ -1,0 +1,16 @@
+{
+  "name": "fb-passport",
+  "version": "1.0.0",
+  "description": "app integrating Fitbit web api",
+  "main": "./lib",
+  "dependencies": {
+    "logger": "0.0.1",
+    "passport-oauth1": "1.x.x"
+  },
+  "devDependencies": {
+    "vows": "0.8.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "fitbit_api_web_integration",
+  "version": "0.0.0",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "compression": "^1.6.0",
+    "cookie-parser": "^1.4.0",
+    "cookie-session": "^1.2.0",
+    "ejs": ">= 0.0.0",
+    "express": ">= 0.0.0",
+    "express-session": "^1.12.1",
+    "logger": "0.0.1",
+    "method-override": "^2.3.5",
+    "moment": "^2.10.6",
+    "morgan": "^1.6.1",
+    "oauth": "^0.9.14",
+    "passport": "^0.3.2",
+    "passport-fitbit": ">= 0.0.0",
+    "request": "^2.67.0",
+    "session": "^0.1.0"
+  }
+}
