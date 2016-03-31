@@ -1,0 +1,26 @@
+<div ng-controller="qrController" style = "width:30%; margin-bottom:50px; margin-left:35%;margin-bottom:200px;">
+
+	<Br>
+		<h4 style="color:green" align="center">Your wager has been sucessfully created!</h4>
+
+		<h3 align="center">Option 1: Scan QR code</h3>
+
+		<img align="center" src="{{qr}}">
+
+<!-- 		<h4 style="text-align:center;">Scan this QR Code to Sign the Transaction! Depending on the result of your wager, funds will automatically transferred to the winner. </h4> -->
+	
+		<br>
+
+		<hr style="width:100%">
+
+		<h3 align="center">Option 2: Input your Private Key</h3>
+		<br>
+
+		Private Key: <input type="password" class="form-control" ng-model="private_key">
+		<small>hidden for your security, key is not saved in any way</small>
+		<br>
+		<br>
+		<button class="btn btn-primary" style="width:15%;background-color:#d00000;border:1px solid #d00000" ng-click="Sign()">Sign</button>
+
+
+</div>

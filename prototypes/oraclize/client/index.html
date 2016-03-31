@@ -1,0 +1,54 @@
+<html ng-app='application'>
+<head>
+	<title> RiskBazaar | with Oraclize </title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<!-- materialize icons used in login and registration -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="http://code.angularjs.org/1.1.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular-resource.min.js"></script>
+
+    <!-- requiring the angular page -->
+    <script type="text/javascript" src="angular/angular.js"> </script>
+
+        <!-- angular controllers -->
+    <script type="text/javascript" src="angular/angular_controllers/wager.js"> </script>
+       <script type="text/javascript" src="angular/angular_controllers/qr.js"> </script>
+    <!-- angular factories -->
+    <script type="text/javascript" src="angular/angular_factories/wager.js"> </script>
+
+
+    <!-- stylesheets -->
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+	<!-- Include Required Prerequisites -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/latest/css/bootstrap.css" />
+     
+    <!-- Include Date Range Picker -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+
+</head>
+
+<body>
+
+	<div class="col s12">
+		<div class='row'>
+			<!--partials will be here -->
+			<div ng-view=""></div>
+		</div>
+	</div>
+
+    <!-- adding google analytics -->
+    <!-- https://developers.google.com/analytics/devguides/collection/analyticsjs/ -->
+
+
+</body>
+
+</html>

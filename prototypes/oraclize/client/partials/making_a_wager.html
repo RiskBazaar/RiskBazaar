@@ -1,0 +1,377 @@
+<style type="text/css">
+
+	.popup-info {
+	  display: none;
+	  position: absolute;
+	  /*left:1000px;*/
+	  z-index: 10;
+	  background: #fff;
+	  border-radius: 5px;
+	  border: 1px solid #d3d3d3;
+	  box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.26);
+	  width: 250px;
+	  padding: 15px;
+	  font-family: "merriweather";
+	  font-size: 14px;
+	  color: #6f7982;
+	}
+
+	.exp-info{
+		margin-top:15px;
+		left:480px;
+	}
+	.mod-info{
+		margin-right:15px;
+		left:1000px;
+		margin-top: -70px;
+	}
+	.outcome_2-info{
+		margin-right:15px;
+		left:770px;
+		margin-top: -40px;
+	}
+	.opponent-info{
+		margin-right:15px;
+		left:1000px;
+		margin-top: -50px;
+	}
+	.outcome_1-info{
+		margin-right:15px;
+		left:770px;
+		margin-top: -40px;
+	}
+	.challenger-info{
+		margin-right:15px;
+		left:1000px;
+		margin-top: -50px;
+	}
+	.event-info{
+		margin-right:15px;
+		left:1000px;
+		margin-top: -130px;
+	}
+
+
+	.popup-info p {
+	  margin: 0;
+	}
+
+	.popup-info p:not(:last-of-type){
+	  margin-bottom: 12px;
+	}
+
+	#wager-form {
+		background-color: lightgray;
+		padding:30px;
+	}
+
+</style>
+
+<script type="text/javascript">
+
+	$("#helpEvent").hover(
+	  function(){
+	    $(".popup-info.event-info").show();
+	  },
+	  function(){
+	    $(".popup-info.event-info").hide();
+	  }
+	);
+
+	$("#helpChallenger").hover(
+	  function(){
+	    $(".popup-info.challenger-info").show();
+	  },
+	  function(){
+	    $(".popup-info.challenger-info").hide();
+	  }
+	);
+
+	$("#helpOutcome_1").hover(
+	  function(){
+	    $(".popup-info.outcome_1-info").show();
+	  },
+	  function(){
+	    $(".popup-info.outcome_1-info").hide();
+	  }
+	);
+
+	$("#helpOpponent").hover(
+	  function(){
+	    $(".popup-info.opponent-info").show();
+	  },
+	  function(){
+	    $(".popup-info.opponent-info").hide();
+	  }
+	);
+	
+	$("#helpOutcome_2").hover(
+	  function(){
+	    $(".popup-info.outcome_2-info").show();
+	  },
+	  function(){
+	    $(".popup-info.outcome_2-info").hide();
+	  }
+	);
+	
+	$("#helpMod").hover(
+	  function(){
+	    $(".popup-info.mod-info").show();
+	  },
+	  function(){
+	    $(".popup-info.mod-info").hide();
+	  }
+	);
+	
+	$("#helpExp").hover(
+	  function(){
+	    $(".popup-info.exp-info").show();
+	  },
+	  function(){
+	    $(".popup-info.exp-info").hide();
+	  }
+	);
+</script>
+
+<div ng-controller="wagerController" id="wager_controller">
+
+	<h7 id="logo"><img src="img/logo.png" width="90" class="form-horizontal" style = "margin-left:15%; display:inline-block" ></h7>
+
+	<hr style="width:95%;">
+
+	<div class="form-horizontal" style = "width:80%; margin-bottom:50px; margin-left:25%; display:inline-block;margin-bottom:200px;" >
+
+		<br>
+
+		<form name="wager_info">
+
+			<div id="wager-form" style="display:inline-block; vertical-align:top; width:54%;">
+				<h5 ng-bind="wager_error" style="color:#d00000;min-width:200px"></h5>
+
+
+
+				<h5 ng-bind="wager_error_event" style="color:#d00000;min-width:200px"></h5>
+				<h5 ng-bind="wager_error_event_date" style="color:#d00000;min-width:200px"></h5>
+				<h5 ng-bind="wager_error_moderator" style="color:#d00000;min-width:200px"></h5>
+				<h5 ng-bind="wager_error_opponent" style="color:#d00000;min-width:200px"></h5>
+				<h5 ng-bind="wager_error_outcome_1" style="color:#d00000;min-width:200px"></h5>
+				<h5 ng-bind="wager_error_outcome_2" style="color:#d00000;min-width:200px"></h5>
+				<h5 ng-bind="wager_error_stakes_1" style="color:#d00000;min-width:200px"></h5>
+				<h5 ng-bind="wager_error_stakes_2" style="color:#d00000;min-width:200px"></h5>
+
+				<h5 ng-bind="wager_success" style="color:green;min-width:200px;"></h5>
+
+
+				<h3 style="color:#d00000;font-family:merriweather">Make a Wager</h3><br>
+
+				<p style="color:darkblue;"> Please choose events that can be confirmed with publicly available data, otherwise the automated moderator will not be able to confirm outcome </p>
+
+				<div>
+					<span style="font-size:16px;"><b>Event</b></span> 
+					<input type="text" ng-model="wager.event" class="form-control" style="display:inline-block;width:85%;margin-left:1%;" placeholder="ex: Trump will be the Republican Nominee">
+					<i class="help-icon" id="helpEvent"><img src="img/info_icon.png" style="width:23;display:inline-block;margin-left:6px;"></i>
+
+					<div class="popup-info event-info" style="float:right"> State the event that will determine the winner of the wager. It should be phrased in such a way that there are two possible outcomes e.g. Yes/No, Occurred/Didn’t occur</div>
+
+
+					<br><br>
+				</div>
+				
+				<div style="margin-left:5%;">
+					<span style="font-size:16px;"><b>Challenger</b></span> 
+					<input type="text" ng-model="wager.challenger" class="form-control" style="display:inline-block;width:75%;margin-left:1%;" placeholder="ex: 03504c662fa50446444de92d4866a6c655cbaef6abf95c6b6f3e81c9a54c3b7654" >
+					<i class="help-icon" id="helpChallenger"><img src="img/info_icon.png" style="width:23;display:inline-block;margin-left:6px;"></i>
+
+					<div class="popup-info challenger-info">
+						Bitcoin Address from the individual who is <b>creating</b> the wager.
+					</div>
+
+					<br><br>
+				</div>
+				
+
+				<div class="row" style="margin-left:6%;">
+					<span>Outcome</span>
+					<input type="text" ng-model="wager.outcome_1" class="form-control" placeholder="ex: True" style="width:40%; display:inline-block;margin-left:4.5%;"> 
+					<i class="help-icon" id="helpOutcome_1"><img src="img/info_icon.png" style="width:23;display:inline-block;margin-left:6px;"></i>
+
+					<div class="popup-info outcome_1-info"> If this happens the challenger wins all the stakes!</div>
+
+					<br><br>
+
+					<div class="input-group" style="margin-left:15%;min-width: 450px;">
+					      <div class="input-group-addon" style="margin-left:55%;">   BTC   </div>
+					      <input type="text" min="0" ng-model="wager.stakes_1" name = "stakes_1" class="form-control" style="display:inline-block; width:25%;" placeholder="0.001">
+					</div>
+
+				</div><br>
+				
+				<div style="margin-left:5%;">
+					<span style="font-size:16px;"><b>Opponent</b></span> 
+					<input type="text" ng-model="wager.opponent" class="form-control" style="display:inline-block; width:75%; margin-left:2%;" placeholder="ex: 038be9961998f4a463e6e6c989a3d21f321dfdda1102a6312367bf9fb264060b20">
+					<i class="help-icon" id="helpOpponent"> <img src="img/info_icon.png" style="width:23;display:inline-block;margin-left:6px;"></i>
+
+					<div class="popup-info opponent-info"> Bitcoin Address from the individual taking the <b>opposite</b> side of the wager. </div>
+
+					<br><br>
+				</div>
+
+				<div class="row" style="margin-left:6%;">
+					<span>Outcome</span> 
+					<input type="text" ng-model="wager.outcome_2" class="form-control" placeholder="ex: False" style="width:40%; display:inline-flex;margin-left:4.5%;">
+					<i class="help-icon" id="helpOutcome_2"><img src="img/info_icon.png" style="width:23;display:inline-block;margin-left:6px;"></i>
+
+					<div class="popup-info outcome_2-info" style="float:right;"> Make sure this outcome is the opposite of the Challenger’s outcome. </div>
+
+					<br><br>
+
+					<div class="input-group" style="margin-left:15%;min-width: 450px;">
+					      <div class="input-group-addon" style="margin-left:55%;">   BTC  </div>
+					      <input type="text" min="0" ng-model="wager.stakes_2" class="form-control" style="display:inline-block; width:25%;" placeholder="0.001" name="stakes_2">
+					</div>
+
+				</div><br>
+				
+				<div style="margin-left:5%;">
+					<span style="font-size:16px;"><b>Moderator</b></span> 
+					<input type="text" ng-model="wager.moderator" class="form-control" style="display:inline-block;width:75%;margin-left:1%;" placeholder="Automatic Moderation via Wolfram" disabled>
+
+
+					<i class="help-icon" id="helpMod"><img src="img/info_icon.png" style="width:23;display:inline-block;margin-left:6px;"></i>
+
+					<div class="popup-info mod-info">Oraclize will automatically decide the winner in case of a dispute between the challenger and opponent.</div>
+
+					<small>powered by Oraclize</small>
+
+					<br><br>
+				</div>
+
+				<div style="margin-left:5%;min-width: 450px;">
+					<span style="font-size:14px"><b>When will you know the Outcome? </b></span> 
+					<input type="text" ng-model="wager.event_end_date" style="width:40%; display:inline-block;margin-left:2%;" class="form-control">
+					<i class="help-icon" id="helpExp"><img src="img/info_icon.png" style="width:23;display:inline-block;margin-left:6px;"></i>
+
+					<div class="popup-info exp-info"> The date that the event will end and when the outcome should be known by every person in the wager. </div>
+
+					<br><br>
+				</div>
+				
+
+				<button class="btn btn-primary" style="width:15%;margin-left:83%;min-width:75px;background-color:#d00000;border:1px solid #d00000" ng-click="makeWager()"> Submit </button>
+
+
+			</div>
+
+
+			<div id="challenger_odds" style="width:20%; display:inline-block;padding:30px; margin-left:5%; border:2px lightgray solid; background-color:EBD1D1;margin-top:25%;min-width:160px;text-decoration: bold">
+				<!-- update this with the odds calculated based on the stakes inputed: ajax/juqrey before form is submitted -->
+			</div>
+
+			<div id="opponent_odds" style="width:20%; display:inline-block;padding:30px;border:2px lightgray solid;background-color:EBD1D1;min-width:160px;text-decoration:bold; margin-right:21%; margin-top: -22%; float:right">
+				<!-- update this with the odds calculated based on the stakes inputed: ajax/juqrey before form is submitted -->
+			</div>
+
+
+
+		</form>
+
+
+	</div>
+
+</div>
+
+
+
+
+<script type="text/javascript">
+
+	$(function() {
+
+		$('input[ng-model="wager.event_end_date"]').daterangepicker({
+	        singleDatePicker: true,
+	        showDropdowns: true,
+	        locale: {
+            	format: 'YYYY-MM-DD'
+        	}
+	    },
+	    function(start, end, label) {
+	        var date = start.format('YYYY-MM-DD');
+	        console.log('date', date);
+	        angular.element(document.getElementById('wager_controller')).scope().wager.event_end_date = date;
+	    });
+	});
+
+</script>
+
+
+
+<script type="text/javascript">
+
+	$(document).ready(function(){
+
+		$('#challenger_odds').hide();
+		$('#opponent_odds').hide();
+
+
+		$('input[name="stakes_2"]').change(function(){
+
+		    $('input[name="stakes_1"]').change(function(){
+
+		    	A = parseFloat($('input[name="stakes_1"]').val());
+		    	B = parseFloat($('input[name="stakes_2"]').val());
+
+		    	//do the calculation 
+		    	challenger_odds = ( B / (A + B) ) * 100;
+		    	opponent_odds = 100 - challenger_odds;
+
+		    	
+		    	challenger_odds = Math.round((challenger_odds * 10) / 10)
+		    	opponent_odds = Math.round((opponent_odds * 10) / 10)
+		    	console.log(challenger_odds);
+		    	console.log(opponent_odds);
+
+		    	string1 = challenger_odds + '% assumed odds of winning';
+		    	string2 = opponent_odds + '% assumed odds of winning';
+
+		    	// update the textbox with the odds	 
+		    	// oddly needed to switch boxes for some reason  
+		    	$('#challenger_odds').text(string2);
+		    	$('#opponent_odds').text(string1);
+		    	$('#challenger_odds').show();
+				$('#opponent_odds').show();	
+
+			});
+		});
+
+
+	    $('input[name="stakes_1"]').change(function(){
+
+		    $('input[name="stakes_2"]').change(function(){
+
+		    	A = parseFloat($('input[name="stakes_1"]').val());
+		    	B = parseFloat($('input[name="stakes_2"]').val());
+
+		    	//do the calculation 
+		    	challenger_odds = ( B / (A + B) ) * 100;
+		    	opponent_odds = 100 - challenger_odds;
+
+		    	
+		    	challenger_odds = Math.round((challenger_odds * 10) / 10)
+		    	opponent_odds = Math.round((opponent_odds * 10) / 10)
+		    	console.log(challenger_odds);
+		    	console.log(opponent_odds);
+
+		    	string1 = challenger_odds + '% assumed odds of winning';
+		    	string2 = opponent_odds + '% assumed odds of winning';
+
+		    	// update the textbox with the odds	 
+		    	// oddly needed to switch boxes for some reason  
+		    	$('#challenger_odds').text(string2);
+		    	$('#opponent_odds').text(string1);
+		    	$('#challenger_odds').show();
+				$('#opponent_odds').show();	
+
+			});
+		});
+	});
+</script>
