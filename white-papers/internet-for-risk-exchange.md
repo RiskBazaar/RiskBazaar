@@ -4,9 +4,9 @@ April 2017
 
 This is an update on *Building a risk market for the digital age* published in August 2015.
 
-**Authors: Michael Folkson, Alexandra Groetsema, Nathan Basanese**
+Authors: Michael Folkson, Alexandra Groetsema, Nathan Basanese
 
-**Email: michael, alexandra, nathan @riskbazaar.org**
+Email: michael, alexandra, nathan @riskbazaar.org
 
 ## Abstract
 
