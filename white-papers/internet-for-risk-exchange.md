@@ -145,36 +145,36 @@ There is lots of hype around blockchains at the time of writing with financial i
 We would like to thank the OpenBazaar community for inspiring the creation of RiskBazaar but particularly Dr Washington Sanchez, Austin Williams and Chris Pacia for their contributions to the discussion and prior work completed. No acknowledgement would be complete in this space without thanking the original cypherpunks and particularly Ian Grigg and Nick Szabo for laying the intellectual foundations for Bitcoin, Ricardian contracts and what has been popularized as smart contracts. 
 
 ## Bibliography
-Ali, M., Nelson, J., Shea, R., & Freedman, M. J. (2016). Blockstack: A Global Naming and Storage System Secured by Blockchains. Retrieved from Blockstack: https://blockstack.org/blockstack.pdf
-Antonopoulos, A. (2014). Mastering Bitcoin: Unlocking Digital Cryptocurrencies. O'Reilly.
-Benet, J. (2014). IPFS - Content Addressed, Versioned, P2P File System. Retrieved from arxiv.org: https://arxiv.org/pdf/1407.3561v1.pdf
-Blockstack. (2016). Linking your OpenBazaar GUID to your Blockstack ID. Retrieved from GitHub: https://github.com/blockstack/blockstack-cli/blob/master/docs/openbazaar.md
-Dixon, C. (2014). Full stack startups. Retrieved from cdixon blog: http://cdixon.org/2014/03/15/full-stack-startups/ 
-Douceur, J. R. (n.d.). Microsoft. Retrieved from The Sybil Attack: https://www.microsoft.com/en-us/research/wp-content/uploads/2002/01/IPTPS2002.pdf
-Drake, K. (2015). HTTP is obsolete. It's time for the distributed, permanent web. Retrieved from ipfs.io: https://ipfs.io/ipfs/QmNhFJjGcMPqpuYfxL62VVB9528NXqDNMFXiqN5bgFYiZ1/its-time-for-the-permanent-web.html
-DuoSearch. (2016). Trusted OpenBazaar stores. Retrieved from Duo Search Blog: https://blog.duosear.ch/trusted-openbazaar-stores-7129dd34360b#.y2jdtdmsz
-Folkson, M. (2015). Building a risk market for the digital age. Retrieved from https://www.riskbazaar.org/RiskBazaar_whitepaper.pdf
-Folkson, M. (2016). Moderators - the key to P2P contracts. Retrieved from Medium: https://medium.com/@therealopenbazaar/moderators-the-key-to-p2p-contracts-e0692e9a7647#.iroj5f96k
-Folkson, M. (2016). RiskBazaar - Avoiding the temporary cracks in crypto-utopia. Retrieved from Medium: https://medium.com/@RiskBazaar/riskbazaar-avoiding-the-temporary-cracks-in-crypto-utopia-65c1c2229390#.obu1q3dfe
-Folkson, M. (2016). RiskBazaar - Sometimes the revolution is bubbling below the surface. Retrieved from Medium: https://medium.com/@RiskBazaar/riskbazaar-sometimes-the-revolution-is-bubbling-below-the-surface-fe1d9a760459#.yuzk3mred
-Grigg, I. (2004). The Ricardian contract. Retrieved from iang.org: http://iang.org/papers/ricardian_contract.html
-Harford, T. (2017). 50 Things That Made the Modern Economy . Retrieved from www.bbc.co.uk: http://www.bbc.co.uk/programmes/p04r1sjb
-Hariharan, A. (2016). a16z. Retrieved from All about Network Effects: http://a16z.com/2016/03/07/all-about-network-effects/
-Lee, T. (2016). Venture capitalist Marc Andreessen explains how AI will change the world. Retrieved from Vox: http://www.vox.com/new-money/2016/10/5/13081058/marc-andreessen-ai-future
-Litos, O., & Zindros, D. (2016). Trust is Risk. Retrieved from GitHub: https://github.com/OrfeasLitos/TrustIsRisk
-Lloyd's of London. (n.d.). History & Chronology. Retrieved from lloyds.com: http://www.lloyds.com/~/media/lloyds/reports/top%20100%20pdfs/lloydshistoryandchronologyfactsheet2.pdf
-Lundkvist, C. (2015). IPFS Introduction by Example. Retrieved from What does the quant say?: http://whatdoesthequantsay.com/2015/09/13/ipfs-introduction-by-example
-Mougayar, W. (2016). The Business Blockchain. Wiley.
-Pacia, C. (2016). OpenBazaar - High level overview. Retrieved from GitHub: https://github.com/OpenBazaar/docs/blob/master/protocol/docs/overview.md
-Peterson, J., & Krug, J. (2015). Augur: a Decentralized, Open-Source Platform for Prediction Markets. 
-Poon, J., & Dryja, T. (2016). The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments. 
-Sanchez, W. (2015). OpenBazaar Blog. Retrieved from Oracles and Risk Contracts in OpenBazaar: https://blog.openbazaar.org/oracles-and-risk-contracts-in-openbazaar/
-Sanchez, W. (2016). The Case for Dumb Contracts. Retrieved from Medium: https://medium.com/@therealopenbazaar/the-case-for-dumb-contracts-6308aa5b757#.b2im399yl
-Srinivasan, B., & Pande, V. (2013). Startup Engineering. Retrieved from https://class.coursera.org/startup-001
-Szabo, N. (2008). Wet code and dry. Retrieved from Unenumerated: http://unenumerated.blogspot.co.uk/2006/11/wet-code-and-dry.html
-Tarun, P. (2016). The future is now: Why machines will take over our wallets. Retrieved from Mixpanel: https://blog.mixpanel.com/2016/10/04/machine-payable-web/
-Tempany, M. (2016). Lemonade - a reason to start from scratch. Retrieved from LinkedIn: https://www.linkedin.com/pulse/case-starting-from-scratch-michael-tempany
-Traity. (2015). Decentralized Identity and Reputation. Retrieved from Traity: https://traity.org/decentralized-identity-and-reputation
-Wikipedia. (n.d.). Ricardian Contract. Retrieved from Wikipedia: https://en.wikipedia.org/wiki/Ricardian_Contract
-Wikipedia. (n.d.). Smart contract. Retrieved from Wikipedia: https://en.wikipedia.org/wiki/Smart_contract
+1. Ali, M., Nelson, J., Shea, R., & Freedman, M. J. (2016). Blockstack: A Global Naming and Storage System Secured by Blockchains. Retrieved from Blockstack: https://blockstack.org/blockstack.pdf
+2. Antonopoulos, A. (2014). Mastering Bitcoin: Unlocking Digital Cryptocurrencies. O'Reilly.
+3. Benet, J. (2014). IPFS - Content Addressed, Versioned, P2P File System. Retrieved from arxiv.org: https://arxiv.org/pdf/1407.3561v1.pdf
+4. Blockstack. (2016). Linking your OpenBazaar GUID to your Blockstack ID. Retrieved from GitHub: https://github.com/blockstack/blockstack-cli/blob/master/docs/openbazaar.md
+5. Dixon, C. (2014). Full stack startups. Retrieved from cdixon blog: http://cdixon.org/2014/03/15/full-stack-startups/ 
+6. Douceur, J. R. (n.d.). Microsoft. Retrieved from The Sybil Attack: https://www.microsoft.com/en-us/research/wp-content/uploads/2002/01/IPTPS2002.pdf
+7. Drake, K. (2015). HTTP is obsolete. It's time for the distributed, permanent web. Retrieved from ipfs.io: https://ipfs.io/ipfs/QmNhFJjGcMPqpuYfxL62VVB9528NXqDNMFXiqN5bgFYiZ1/its-time-for-the-permanent-web.html
+8. DuoSearch. (2016). Trusted OpenBazaar stores. Retrieved from Duo Search Blog: https://blog.duosear.ch/trusted-openbazaar-stores-7129dd34360b#.y2jdtdmsz
+9. Folkson, M. (2015). Building a risk market for the digital age. Retrieved from https://www.riskbazaar.org/RiskBazaar_whitepaper.pdf
+10. Folkson, M. (2016). Moderators - the key to P2P contracts. Retrieved from Medium: https://medium.com/@therealopenbazaar/moderators-the-key-to-p2p-contracts-e0692e9a7647#.iroj5f96k
+11. Folkson, M. (2016). RiskBazaar - Avoiding the temporary cracks in crypto-utopia. Retrieved from Medium: https://medium.com/@RiskBazaar/riskbazaar-avoiding-the-temporary-cracks-in-crypto-utopia-65c1c2229390#.obu1q3dfe
+12. Folkson, M. (2016). RiskBazaar - Sometimes the revolution is bubbling below the surface. Retrieved from Medium: https://medium.com/@RiskBazaar/riskbazaar-sometimes-the-revolution-is-bubbling-below-the-surface-fe1d9a760459#.yuzk3mred
+13. Grigg, I. (2004). The Ricardian contract. Retrieved from iang.org: http://iang.org/papers/ricardian_contract.html
+14. Harford, T. (2017). 50 Things That Made the Modern Economy . Retrieved from www.bbc.co.uk: http://www.bbc.co.uk/programmes/p04r1sjb
+15. Hariharan, A. (2016). a16z. Retrieved from All about Network Effects: http://a16z.com/2016/03/07/all-about-network-effects/
+16. Lee, T. (2016). Venture capitalist Marc Andreessen explains how AI will change the world. Retrieved from Vox: http://www.vox.com/new-money/2016/10/5/13081058/marc-andreessen-ai-future
+17. Litos, O., & Zindros, D. (2016). Trust is Risk. Retrieved from GitHub: https://github.com/OrfeasLitos/TrustIsRisk
+18. Lloyd's of London. (n.d.). History & Chronology. Retrieved from lloyds.com: http://www.lloyds.com/~/media/lloyds/reports/top%20100%20pdfs/lloydshistoryandchronologyfactsheet2.pdf
+19. Lundkvist, C. (2015). IPFS Introduction by Example. Retrieved from What does the quant say?: http://whatdoesthequantsay.com/2015/09/13/ipfs-introduction-by-example
+20. Mougayar, W. (2016). The Business Blockchain. Wiley.
+21. Pacia, C. (2016). OpenBazaar - High level overview. Retrieved from GitHub: https://github.com/OpenBazaar/docs/blob/master/protocol/docs/overview.md
+22. Peterson, J., & Krug, J. (2015). Augur: a Decentralized, Open-Source Platform for Prediction Markets. 
+23. Poon, J., & Dryja, T. (2016). The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments. 
+24. Sanchez, W. (2015). OpenBazaar Blog. Retrieved from Oracles and Risk Contracts in OpenBazaar: https://blog.openbazaar.org/oracles-and-risk-contracts-in-openbazaar/
+25. Sanchez, W. (2016). The Case for Dumb Contracts. Retrieved from Medium: https://medium.com/@therealopenbazaar/the-case-for-dumb-contracts-6308aa5b757#.b2im399yl
+26. Srinivasan, B., & Pande, V. (2013). Startup Engineering. Retrieved from https://class.coursera.org/startup-001
+27. Szabo, N. (2008). Wet code and dry. Retrieved from Unenumerated: http://unenumerated.blogspot.co.uk/2006/11/wet-code-and-dry.html
+28. Tarun, P. (2016). The future is now: Why machines will take over our wallets. Retrieved from Mixpanel: https://blog.mixpanel.com/2016/10/04/machine-payable-web/
+29. Tempany, M. (2016). Lemonade - a reason to start from scratch. Retrieved from LinkedIn: https://www.linkedin.com/pulse/case-starting-from-scratch-michael-tempany
+30. Traity. (2015). Decentralized Identity and Reputation. Retrieved from Traity: https://traity.org/decentralized-identity-and-reputation
+31. Wikipedia. (n.d.). Ricardian Contract. Retrieved from Wikipedia: https://en.wikipedia.org/wiki/Ricardian_Contract
+32. Wikipedia. (n.d.). Smart contract. Retrieved from Wikipedia: https://en.wikipedia.org/wiki/Smart_contract
 
