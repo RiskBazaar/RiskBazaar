@@ -104,39 +104,39 @@ Although private blockchains (or ‘permissioned distributed ledger systems’) 
 
 ## Glossary
 
-*Bitcoin* – A digital currency and peer-to-peer payment system that enables instant, global payments. Users can transact directly without requiring an intermediary such as a banking institution. Transactions are verified by network of computers (miners) and recorded in the blockchain. There is no central authority and any changes to the software must be the supported by the majority of the network’s participants. The open source software was released in 2009. 
+**Bitcoin** – A digital currency and peer-to-peer payment system that enables instant, global payments. Users can transact directly without requiring an intermediary such as a banking institution. Transactions are verified by network of computers (miners) and recorded in the blockchain. There is no central authority and any changes to the software must be the supported by the majority of the network’s participants. The open source software was released in 2009. 
 
-Blockchain – A ledger or database of every transaction made by participants. Transactions are verified using cryptography and collected into blocks of transactions that are confirmed using decentralized consensus across the network. This eliminates the reliance on a trusted third party to validate transactions. Also see Permissioned distributed ledger.
+**Blockchain** – A ledger or database of every transaction made by participants. Transactions are verified using cryptography and collected into blocks of transactions that are confirmed using decentralized consensus across the network. This eliminates the reliance on a trusted third party to validate transactions. Also see Permissioned distributed ledger.
 
-Claims adjuster – Also loss adjuster. Assumes the responsibility of scrutinizing insurance claims to determine the extent of the insuring company’s liability. This includes verifying that the claimant has not violated the terms of the contract.
+**Claims adjuster** – Also loss adjuster. Assumes the responsibility of scrutinizing insurance claims to determine the extent of the insuring company’s liability. This includes verifying that the claimant has not violated the terms of the contract.
 
-Cryptography – The enciphering and deciphering of messages in secret code. Bitcoin uses public key cryptography that allows transactions to be signed with a private key without exposing the private key. The network can validate that the transaction was signed by the correct private key but cannot decipher what alphanumeric characters make up that private key. Miners compete for the rewards of newly minted bitcoin by solving cryptographic puzzles that collect groups of transactions into blocks.
+**Cryptography** – The enciphering and deciphering of messages in secret code. Bitcoin uses public key cryptography that allows transactions to be signed with a private key without exposing the private key. The network can validate that the transaction was signed by the correct private key but cannot decipher what alphanumeric characters make up that private key. Miners compete for the rewards of newly minted bitcoin by solving cryptographic puzzles that collect groups of transactions into blocks.
 
-DAO – Decentralized Autonomous Organization. The assets and bylaws of an organization are programmed into software code that is self-enforcing. It has the ability to execute and move value without any central control. Also see smart contract.
+**DAO** – Decentralized Autonomous Organization. The assets and bylaws of an organization are programmed into software code that is self-enforcing. It has the ability to execute and move value without any central control. Also see smart contract.
 
-Deductible – The amount that must be paid by out of the pocket of the policyholder in the event of any future claim. The insurer will compensate the claimant for value above this deductible amount.
+**Deductible** – The amount that must be paid by out of the pocket of the policyholder in the event of any future claim. The insurer will compensate the claimant for value above this deductible amount.
 
-Digital signature – The secure digital equivalent of signing a check. The Elliptic Curve Digital Signature Algorithm (ECDSA) ensures funds are only transferred by the owner of the private key.  The private key is used to generate the signature and the public key can be used to verify that this signature is valid. Also see Cryptography.
+**Digital signature** – The secure digital equivalent of signing a check. The Elliptic Curve Digital Signature Algorithm (ECDSA) ensures funds are only transferred by the owner of the private key.  The private key is used to generate the signature and the public key can be used to verify that this signature is valid. Also see Cryptography.
 
-Ethereum – A world computer or platform for platforms that makes it easy to build applications for providing decentralized services on the Internet. Unlike Bitcoin that is primarily a currency and a payment system, Ethereum provides access to a vast virtual machine able to read and write executable code and data to a blockchain.
+**Ethereum** – A world computer or platform for platforms that makes it easy to build applications for providing decentralized services on the Internet. Unlike Bitcoin that is primarily a currency and a payment system, Ethereum provides access to a vast virtual machine able to read and write executable code and data to a blockchain.
 
-Escrow – A contractual arrangement in which funds are traditionally placed in the control of an independent third party to protect both buyer and seller. The funds are released on the completion or termination of the transaction. Note that with multi-signature Bitcoin escrow contracts, the third party is unable to steal the funds without the complicity of either the buyer or seller.
+**Escrow** – A contractual arrangement in which funds are traditionally placed in the control of an independent third party to protect both buyer and seller. The funds are released on the completion or termination of the transaction. Note that with multi-signature Bitcoin escrow contracts, the third party is unable to steal the funds without the complicity of either the buyer or seller.
 
-Internet of Things – A network of physical objects (e.g. light bulbs, heaters) with embedded software and sensors that are connected to the Internet. This enables them to send and receive data whilst being controlled remotely.
+**Internet of Things** – A network of physical objects (e.g. light bulbs, heaters) with embedded software and sensors that are connected to the Internet. This enables them to send and receive data whilst being controlled remotely.
 
-Multi-signature – An address that is associated with more than one private key. Transactions must be signed or authorized by multiple private keys. An m-of-n address is associated with n private keys and requires signatures from at least m of these private keys to transfer funds.
+**Multi-signature** – An address that is associated with more than one private key. Transactions must be signed or authorized by multiple private keys. An m-of-n address is associated with n private keys and requires signatures from at least m of these private keys to transfer funds.
 
-Permissioned distributed ledger – A private blockchain that limits access and/or right to modify to specific users. In contrast anyone can read, send a transaction or participate in the consensus process on a public blockchain.
+**Permissioned distributed ledger** – A private blockchain that limits access and/or right to modify to specific users. In contrast anyone can read, send a transaction or participate in the consensus process on a public blockchain.
 
-Reputation system – A mechanism for collecting, aggregating and distributing feedback about users’ past behavior
+**Reputation system** – A mechanism for collecting, aggregating and distributing feedback about users’ past behavior
 
-Smart contract –A computerized transaction protocol that executes the terms of a contract. The software code is capable of holding, transferring, receiving or spending digital assets.
+**Smart contract** –A computerized transaction protocol that executes the terms of a contract. The software code is capable of holding, transferring, receiving or spending digital assets.
 
-Sybil attack – An attack to undermine a reputation system by counterfeiting multiple identities and using them to disproportionately influence the network.
+**Sybil attack** – An attack to undermine a reputation system by counterfeiting multiple identities and using them to disproportionately influence the network.
 
-Turing-complete – A programming language able to simulate any other language with conditions, loops and read/write memory.
+**Turing-complete** – A programming language able to simulate any other language with conditions, loops and read/write memory.
 
-Wallet – A file that stores the private key(s) that a user needs to transfer funds. There are web, desktop, mobile, hardware and paper wallets that offer varying tradeoffs between security and usability. 
+**Wallet** – A file that stores the private key(s) that a user needs to transfer funds. There are web, desktop, mobile, hardware and paper wallets that offer varying tradeoffs between security and usability. 
 
  
 
