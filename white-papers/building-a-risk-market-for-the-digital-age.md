@@ -48,6 +48,8 @@ Building the first decentralized peer-to-peer digital currency was such a step i
 
 Ethereum has been described as a “world computer” and a “platform for platforms” which makes it easy to build applications for providing decentralized services on the Internet.  Applications such as marketplaces, social networks, payment systems, elections and asset registers can be deployed on the blockchain without needing to set up or maintain servers. The cryptocurrency or digital token associated with the Ethereum blockchain is called Ether and this is used to pay transaction fees and ‘fuel’ the execution of smart contracts. Sending a transaction to a contract causes its code to execute and the more computation it requires the more ether it consumes. Unlike Bitcoin that is primarily a currency and a payment system, Ethereum provides access to a vast virtual machine able to read and write executable code and data to a blockchain. It will enable the building of decentralized autonomous organizations (DAOs) that encode the assets and bylaws of an organization into self-enforcing smart contracts offering the potential for a ‘minimum viable bureaucracy’34.
 
+((("Bitcoin: A Peer-to-Peer Electronic Cash System. (Nakamoto)"))) "Bitcoin: A Peer-to-Peer Electronic Cash System,"footnote:["Bitcoin: A Peer-to-Peer Electronic Cash System", Satoshi Nakamoto https://bitcoin.org/bitcoin.pdf]
+
 
 ## The role of the claims adjuster
 
