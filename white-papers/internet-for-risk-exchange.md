@@ -6,11 +6,11 @@ This was originally published in April 2017. It is an update on *Building a risk
 
 **Email: michael, alexandra, nathan @riskbazaar.org**
 
-This is an update on “Building a risk market for the digital age” published in August 2015.
+## Abstract
 
 Individuals can now send information and currency directly, peer-to-peer to another individual located anywhere in the world. RiskBazaar is in the process of enabling individuals to do the same with risk exposures. There are no barriers to anyone with an internet connection to use the platform to offload risk exposures (e.g. policyholder) or accept them (e.g. insurer). Before Bitcoin, this wouldn’t have been possible. Strong regulatory safeguards were required to ensure databases weren’t tampered with and reserves weren’t stolen. Now public blockchains such as Bitcoin can provide the backbone for a new insurance industry and a platform for permissionless innovation. Setting up an insurance company in the regulated financial system typically requires millions of dollars in capital and months of regulatory submissions. Unless there is strong evidence of unmet demand for a new class of insurance or a contract for a new risk type, it is not rational for an incumbent to launch one. On RiskBazaar, two parties will be able to enter into a new risk contract within seconds.
 
-Risk contracts
+## Risk contracts
 
 We define a risk contract as “a contract that pays out conditional on the occurrence of a future event”. We decided it was necessary to define this new term for a number of reasons.
 
@@ -49,7 +49,7 @@ The following is a typical RiskBazaar transaction. It is directly peer-to-peer; 
 
 We have built a prototype made up of a generalized wager platform and our first supported conventional insurance product: transaction insurance on OpenBazaar. 
 
-Generalized Wager Platform
+## Generalized Wager Platform
 
 Two individuals will be able to use the generalized wager platform to speculate on the occurrence of any future event. The originator is the individual who completes the original form. The counterparty is the individual who receives the proposed wager and can decide whether to accept or reject the terms. The required fields in the form to be completed by the originator include a description of the event being speculated upon, the identity of the counterparty and the proposed stakes the originator and counterparty will be required to post if the counterparty agrees to the wager. The originator will also be able to assign a moderator in case there is a future dispute between the two parties on whether the event occurred or not.
 
@@ -70,7 +70,7 @@ Some contracts will be similar to the events of prediction markets such as Augur
 
 
 
-OpenBazaar
+## OpenBazaar
 
 The first conventional insurance product supported on RiskBazaar will be transaction insurance for the OpenBazaar marketplace. As explained in ‘Building a risk market for the digital age’, OpenBazaar allows individuals to conduct peer-to-peer (P2P) e-commerce. You can buy directly from a merchant using a protocol like the internet protocol TCP/IP. There is no centralized entity like Ebay to charge a toll and govern the trade that is conducted on the marketplace. As with all technological advances, there are pros and cons to decentralized trade but we believe the former greatly outnumber the latter.
 
@@ -82,7 +82,7 @@ This form is tailored to one specific insurance product (rather than generalized
 
 
 
-Reputation
+## Reputation
 
 Most e-commerce platforms rely on reputation systems to some extent and there are several effective ones in operation on Ebay, Airbnb, Uber etc. These are all controlled and maintained by the owner of the platform who has the ability to use manual intervention and secrecy to defend the system from attack (e.g. Sybil attacks), retaliation and collusion. However, it is not possible for users to transfer the reputation score they have accumulated on one platform to another or be easily assessed cross platform. Building a decentralized reputation system that is censorship resistant and not controlled by any one party is a new frontier.
 
@@ -103,13 +103,13 @@ It is possible to build a reputation system with three of these four qualities. 
 
 An additional challenge for decentralized reputation is that the reputation data is stored on multiple servers (in this case IPFS nodes) maintained by a large number of distinct users. To retrieve the data on a particular user, the network must be crawled. If you don’t use a third party service, your node has to carry out this work (download every individual review). This is time consuming especially if you need to do this every time you wish to assess a user’s reputation. There are additional challenges such as users only hosting reviews that are positive and not hosting their negative reviews. And once the data has been collected, metrics need to be calculated such as the average review score. It is unlikely that at this stage, end users will put up with the poor user experience caused by the requirement to complete all this computation every time they use the protocol. This provides opportunities to third parties such as DuoSearch or Oraclize who could crawl the network and complete verifiable computation. 
 
-Moderators
+## Moderators
 
 The first layer of protection for buyers on the OpenBazaar protocol is the reputation system that allows them to assess the past history of vendors on the marketplace. The second layer of protection is the ability to assign a moderator to adjudicate in the case of a dispute between the buyer and the vendor. Moderators cannot access the funds held at the multisignature address. As described earlier, transferring funds from a 2 of 3 Bitcoin multisignature requires digital signatures from two of the three parties. However, moderators can collude with either the buyer or the vendor to defraud the other party. They can also attempt to profit from a dispute by selling their digital signature to the highest bidder. Therefore, a reputation system is a critical part of ensuring moderators are held accountable. Our expectation is that the role of the moderator will professionalize over time as usage of the protocol grows and the moderator opportunity becomes more lucrative. However, in the early phases of OpenBazaar and RiskBazaar, the ability to assess a moderator’s reputation, using both formal and informal tools, will be critical.
 
 The third (optional) layer of protection at least for users of OpenBazaar will be transaction insurance on RiskBazaar. In an insurance setting, moderators are equivalent to the claims handlers. RiskBazaar is in the process of unbundling the insurance company. It will provide an opportunity for independent claims handlers with no affiliation to a particular insurer or investor to generate revenue. Just as Bitcoin relies on coinbase transactions and transaction fees to incentivize miners to secure the network, the promise of a stream of moderator fees will incentivize moderators to act honestly on RiskBazaar. Those that act dishonestly or incompetently will not build up reputation scores to ensure they are chosen as moderators in future transactions.
 
-Phases for RiskBazaar
+## Phases for RiskBazaar
 
 Balaji Srinivasan stated that “for a while, to get useful applications with digital currency, you’re going to want to centralize everything other than the payment network itself”. Our prototype follows this thought process and relies on centralized servers and a centralized database (MongoDB). The diagram below shows the software architecture for the current RiskBazaar prototype. Although the payments and the holding of funds is done in a decentralized manner using the Bitcoin blockchain, the server and the database are both centralized.
 
@@ -123,7 +123,7 @@ We have started work on decentralizing the two currently centralized elements (d
  
 
 
-Conclusion
+## Conclusion
 
 There is lots of hype around blockchains at the time of writing with financial institutions seeking to upgrade their back-end systems using some variant of a “blockchain”. We subscribe to Chris Dixon’s view that it will be a full stack startup, one that builds “a complete end-to-end product or service” that will truly capitalize on the promise and potential of public blockchains such as Bitcoin. A full stack startup can control the customer experience from start to finish, extricate oneself from the legacy systems of large incumbents and avoid the inertia caused by cannibalization concerns. It is ambitious and requires many interlocking pieces but once accomplished it is very difficult for a competitor to replicate. Ambition and vision also makes it easier to attract the talent that is arguably the most valuable resource. Bitcoin is a brand new architecture and a bottom-up reinvention of money that presents opportunities to those willing and able to start from first principles.
 
@@ -138,10 +138,11 @@ There is lots of hype around blockchains at the time of writing with financial i
 
 
 
-Acknowledgements
+## Acknowledgements
 
 We would like to thank the OpenBazaar community for inspiring the creation of RiskBazaar but particularly Dr Washington Sanchez, Austin Williams and Chris Pacia for their contributions to the discussion and prior work completed. No acknowledgement would be complete in this space without thanking the original cypherpunks and particularly Ian Grigg and Nick Szabo for laying the intellectual foundations for Bitcoin, Ricardian contracts and what has been popularized as smart contracts. 
-Bibliography
+
+## Bibliography
 Ali, M., Nelson, J., Shea, R., & Freedman, M. J. (2016). Blockstack: A Global Naming and Storage System Secured by Blockchains. Retrieved from Blockstack: https://blockstack.org/blockstack.pdf
 Antonopoulos, A. (2014). Mastering Bitcoin: Unlocking Digital Cryptocurrencies. O'Reilly.
 Benet, J. (2014). IPFS - Content Addressed, Versioned, P2P File System. Retrieved from arxiv.org: https://arxiv.org/pdf/1407.3561v1.pdf
