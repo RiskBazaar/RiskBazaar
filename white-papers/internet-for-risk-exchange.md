@@ -122,7 +122,7 @@ However, due to the regulatory uncertainty surrounding blockchain applications w
 
 We have started work on decentralizing the two currently centralized elements (database and server) by using IPFS just like OpenBazaar. Limited resources and a desire to experiment with a simpler, better understood architecture led us to build the former first. It is challenging to fully decentralize application code and still provide a seamless user experience and expect OpenBazaar to be one of the first widely used applications to achieve it. The decentralized RiskBazaar application is both inspired by and utilizing the work done in building the OpenBazaar application. When you download the OpenBazaar application, you automatically install both a server and a client. The current version of OpenBazaar requires stores to have their servers continually running for users to be able to access your store. If you disconnect from the internet, your store is no longer visible to the rest of the network though there are third party hosting solutions to address this problem. The upcoming version 2.0 of OpenBazaar will be built on IPFS so other nodes will be able to seed your content.
 
-![alt tag](
+![alt tag](https://github.com/RiskBazaar/RiskBazaar/blob/master/white-papers/images/rb-after-architecture.png)
 
 
 ## Conclusion
