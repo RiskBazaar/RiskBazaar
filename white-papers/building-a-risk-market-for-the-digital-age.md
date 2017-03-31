@@ -140,7 +140,7 @@ Although private blockchains (or ‘permissioned distributed ledger systems’) 
 
  
 
-Bibliography
+## Bibliography
 1.	Accenture. Missing an Opportunity - Talent Supply Chain. North America: Accenture.
 2.	Antonopoulos, A. M. (2015). Mastering Bitcoin. O'Reilly.
 3.	Aon Benfield. (2014). Insurance Risk Study. Aon Benfield.
