@@ -42,7 +42,7 @@ RiskBazaar, like OpenBazaar relies on multisignature transactions on the Bitcoin
 
 The following diagram shows how conventional insurance works. An insurance company collects premiums on a multitude of policies into a pool and pays claims out of this pool. If the pool is depleted it has access to pools of capital supplied by its investors (debtholders and equityholders) or reinsurers. An investor in the insurance company is not assigned a particular policyholder or even a particular risk type.
 
- [Insurance Business Model]: https://github.com/RiskBazaar/RiskBazaar/blob/master/white-papers/images/insurance-business-model.png
+ ![Insurance Business Model]:(https://github.com/RiskBazaar/RiskBazaar/blob/master/white-papers/images/insurance-business-model.png)
 
 The following is a typical RiskBazaar transaction. It is directly peer-to-peer; there are only two individuals who provide funds and those funds are locked on the Bitcoin blockchain rather than held by the insurance company.
 
