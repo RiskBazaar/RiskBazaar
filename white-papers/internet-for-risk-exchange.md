@@ -57,7 +57,7 @@ Two individuals will be able to use the generalized wager platform to speculate 
 
 Below is a screenshot of a completed form that the originator is able to submit to the counterparty (opponent) for review.
 
-![alt tag](
+![alt tag](https://github.com/RiskBazaar/RiskBazaar/blob/master/white-papers/images/wager-screenshot.png)
 
 
 When the originator completes the form, it is obviously important that the wording of the future event is unambiguous so that it is easily determined who won the wager (by both the participants in the wager and the moderator if assigned). The event described must have binary outcomes (i.e. Yes/No) and it must be possible to determine whether the event occurred or not. If it is not, the participants in the contract risk being returned to the prior state they were in before they entered into the contract (i.e. the original stakes posted at the creation of the contract are returned to the original owners).
