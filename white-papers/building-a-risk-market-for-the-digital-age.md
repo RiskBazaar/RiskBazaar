@@ -1,11 +1,11 @@
 # Building a risk market for the digital age
 
-This was originally published in August 2015
+This was originally published in August 2015.
 
 Michael Folkson
 michaelfolkson@gmail.com
 
-Abstract
+## Abstract
 
 The Internet was originally developed as a network for information exchange. Now a multitude of entrepreneurs and software developers are building the Internet for value exchange. The next logical progression is to build the Internet for risk exchange. Just as units of currency can be transferred to a third party, insurance contracts transfer risk exposures to a third party. Blockchain technology has the potential to radically transform how the insurance industry operates and how risk exposures are shared and distributed. Just as Bitcoin offers a protocol for peer-to-peer value transmission bypassing the traditional banking system, an insurance industry leveraging a public blockchain presents an opportunity for individuals and entities to transparently retain, share or transfer risk exposures without the requirement for risk exposures to sit on an insurance company’s balance sheet. The insurance industry is already presented with a multitude of opportunities to broaden its coverage of risks whilst concurrently making coverage more affordable to policyholders. However, risk aversion, lack of innovation and an uninspiring public perception may prevent it from taking advantage of these opportunities. As the data available to consumers, companies and governments proliferates, it is vital that all participants become more risk aware and risk literate so that they are able to separate the signal from the noise when making decisions based on this data. The insurance industry has in previous eras been an entrepreneurial, pioneering sector and new technologies such as the blockchain can be leveraged to reboot the sector and reengage with its clients on the subject of risk. 
 
