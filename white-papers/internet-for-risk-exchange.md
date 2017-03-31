@@ -78,7 +78,7 @@ The first conventional insurance product supported on RiskBazaar will be transac
 
 Below is a screenshot of a completed form that the originator is able to submit to the counterparty (insurer) for review.
 
-![alt tag](
+![alt tag](https://github.com/RiskBazaar/RiskBazaar/blob/master/white-papers/images/transaction-insurance-screenshot.png)
 
 This form is tailored to one specific insurance product (rather than generalized wagers) and as a result there is much less potential ambiguity. It is also advantageous from a user experience perspective that some fields can be auto-filled from the OpenBazaar order details. The current prototype requires the user to copy and paste the order details JSON from the OpenBazaar application but future versions will have the order details update automatically. The premium that the counterparty (the insurer) accepts as sufficient will depend on the reputation of the originator (and the moderator if assigned) as well as other risk factors such as the delivery method. As with wagers, the counterparty will be able to accept, reject or negotiate the terms proposed by the originator.
 
