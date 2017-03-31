@@ -20,7 +20,7 @@ We define a risk contract as “a contract that pays out conditional on the occu
 * We wish to avoid discussion on whether the contracts being entered into on the platform are wagers or insurance contracts. Our primary objective is to build a dependable, scalable platform that can eventually be entrusted with higher value and more complex insurance products rather than seeking to analyze early users’ motivations for entering into contracts.
 * The blockchain ecosystem is still in an experimental phase. The pre-existing financial system has whole industries built around each risk type (e.g. insurance, market, credit, operational, regulatory) though they do not transfer risk exposures directly peer-to-peer. We do not know at this stage which types of risk contracts will be most popular on our platform but will observe usage on the platform when deciding which specific insurance contracts to provide extra support for.
 
-To demonstrate the need for the use of the term ‘risk contract’, consider these three examples. Alice and Bob are friends who support opposing soccer teams that are playing each other this weekend in a semi-final.
+To demonstrate the need for the use of the term *risk contract*, consider these three examples. Alice and Bob are friends who support opposing soccer teams that are playing each other this weekend in a semi-final.
 
 * Alice and Bob agree to make a wager with Alice betting on her team and Bob betting on his. This is clearly a wager (or bet).
 * Bob is worried that if his team loses, he will be depressed. He seeks a payout to cheer him up in the event of his team losing. Alice agrees to insure him against his team losing. This is an insurance contract though admittedly an unconventional one.
