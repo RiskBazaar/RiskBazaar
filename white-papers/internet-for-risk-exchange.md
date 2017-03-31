@@ -1,8 +1,8 @@
 # RiskBazaar – The internet for risk exchange
 
-This was originally published in April 2017. 
+April 2017 
 
-It is an update on *Building a risk market for the digital age* published in August 2015.
+This is an update on *Building a risk market for the digital age* published in August 2015.
 
 **Authors: Michael Folkson, Alexandra Groetsema, Nathan Basanese**
 
