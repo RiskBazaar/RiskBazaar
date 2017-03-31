@@ -34,10 +34,11 @@ Perhaps the innovation with the greatest power to restructure the insurance indu
 
 Nevertheless an escrow transaction built on a Bitcoin-like blockchain could be a template for how future insurance contracts are constructed. The insurance buyer and the insurance seller could transfer the premium and the collateral respectively into a multi-signature (2-of-3) Bitcoin wallet. The third signatory to the wallet would be the arbiter. Funds would be released from the wallet conditional on 2 parties signing the transaction preventing the buyer, seller or arbiter from fraudulently seizing the funds. This can technically be done by recording the 3 public keys in the following locking script:
 
-~~~~ 2 <Public Key A> <Public Key B> <Public Key C> 3 OP_CHECKMULTISIG ~~~~
+    2 <Public Key A> <Public Key B> <Public Key C> 3 OP_CHECKMULTISIG
+    
 At least 2 of those public keys must provide signatures to release the encumbrance such as in the following unlocking script:
 
-OP_0 <Signature A> <Signature C>
+    OP_0 <Signature A> <Signature C>
 
 Alternatively, because multi-signature scripts can be cumbersome to use and take up significantly more memory than a basic Bitcoin transaction, an alternative would be to use a pay-to-script-hash. This replaces the locking script with a cryptographic hash such that the ‘redeem script’ matching that hash is presented at redemption.
 
