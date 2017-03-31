@@ -40,6 +40,8 @@ This does restrict the types of risk contracts that can be entered into on the p
 
 RiskBazaar, like OpenBazaar relies on multisignature transactions on the Bitcoin blockchain. Standard Bitcoin transactions or single-signature transactions require only one signature from the owner of the private key associated with the Bitcoin address. In contrast, M-of-N multi-signature transactions require the signatures of several people before funds can be transferred. Users entering into a contract on RiskBazaar will have the choice of using 2-of-2 multisignature transactions (no moderator) or 2-of-3 multisignature transactions (with a moderator who receives a small fee). We expect users to predominantly enter into 2-of-2 multisignature transactions in the earlier phases of RiskBazaar as they enter into contracts with people they know and trust. However, as the platform matures and especially as insurance products proliferate, we expect most transactions to be 2-of-3.
 
+![alt tag](
+
 The following diagram shows how conventional insurance works. An insurance company collects premiums on a multitude of policies into a pool and pays claims out of this pool. If the pool is depleted it has access to pools of capital supplied by its investors (debtholders and equityholders) or reinsurers. An investor in the insurance company is not assigned a particular policyholder or even a particular risk type.
 
 ![alt tag](https://github.com/RiskBazaar/RiskBazaar/blob/master/white-papers/images/insurance-business-model.png)
