@@ -41,11 +41,12 @@ This does restrict the types of risk contracts that can be entered into on the p
 RiskBazaar, like OpenBazaar relies on multisignature transactions on the Bitcoin blockchain. Standard Bitcoin transactions or single-signature transactions require only one signature from the owner of the private key associated with the Bitcoin address. In contrast, M-of-N multi-signature transactions require the signatures of several people before funds can be transferred. Users entering into a contract on RiskBazaar will have the choice of using 2-of-2 multisignature transactions (no moderator) or 2-of-3 multisignature transactions (with a moderator who receives a small fee). We expect users to predominantly enter into 2-of-2 multisignature transactions in the earlier phases of RiskBazaar as they enter into contracts with people they know and trust. However, as the platform matures and especially as insurance products proliferate, we expect most transactions to be 2-of-3.
 
 The following diagram shows how conventional insurance works. An insurance company collects premiums on a multitude of policies into a pool and pays claims out of this pool. If the pool is depleted it has access to pools of capital supplied by its investors (debtholders and equityholders) or reinsurers. An investor in the insurance company is not assigned a particular policyholder or even a particular risk type.
+
 ![alt tag](https://github.com/RiskBazaar/RiskBazaar/blob/master/white-papers/images/insurance-business-model.png)
 
 The following is a typical RiskBazaar transaction. It is directly peer-to-peer; there are only two individuals who provide funds and those funds are locked on the Bitcoin blockchain rather than held by the insurance company.
 
- 
+ ![alt tag](
 
 
 We have built a prototype made up of a generalized wager platform and our first supported conventional insurance product: transaction insurance on OpenBazaar. 
@@ -56,7 +57,7 @@ Two individuals will be able to use the generalized wager platform to speculate 
 
 Below is a screenshot of a completed form that the originator is able to submit to the counterparty (opponent) for review.
 
- 
+![alt tag](
 
 
 When the originator completes the form, it is obviously important that the wording of the future event is unambiguous so that it is easily determined who won the wager (by both the participants in the wager and the moderator if assigned). The event described must have binary outcomes (i.e. Yes/No) and it must be possible to determine whether the event occurred or not. If it is not, the participants in the contract risk being returned to the prior state they were in before they entered into the contract (i.e. the original stakes posted at the creation of the contract are returned to the original owners).
@@ -77,7 +78,7 @@ The first conventional insurance product supported on RiskBazaar will be transac
 
 Below is a screenshot of a completed form that the originator is able to submit to the counterparty (insurer) for review.
 
- 
+![alt tag](
 
 This form is tailored to one specific insurance product (rather than generalized wagers) and as a result there is much less potential ambiguity. It is also advantageous from a user experience perspective that some fields can be auto-filled from the OpenBazaar order details. The current prototype requires the user to copy and paste the order details JSON from the OpenBazaar application but future versions will have the order details update automatically. The premium that the counterparty (the insurer) accepts as sufficient will depend on the reputation of the originator (and the moderator if assigned) as well as other risk factors such as the delivery method. As with wagers, the counterparty will be able to accept, reject or negotiate the terms proposed by the originator.
 
@@ -114,14 +115,14 @@ The third (optional) layer of protection at least for users of OpenBazaar will b
 
 Balaji Srinivasan stated that “for a while, to get useful applications with digital currency, you’re going to want to centralize everything other than the payment network itself”. Our prototype follows this thought process and relies on centralized servers and a centralized database (MongoDB). The diagram below shows the software architecture for the current RiskBazaar prototype. Although the payments and the holding of funds is done in a decentralized manner using the Bitcoin blockchain, the server and the database are both centralized.
 
- 
+ ![alt tag](
 
 
 However, due to the regulatory uncertainty surrounding blockchain applications we will need to follow the precedent set by OpenBazaar and Augur in building a decentralized, censorship resistant application. Citizens all over the world are used to doing peer-to-peer wagers and settling in physical cash and it is inevitable they will be able to do so with cryptocurrency. The application of peer-to-peer insurance excites us more from a social utility perspective and we hope that regulators and governments will be supportive. However, we certainly don’t want to be in a position where we can be shut down on the whim of any one regulator or government. Therefore the plan is to gradually decentralize the application and leverage the OpenBazaar protocol being built for decentralized trade. There is a reason why all digital currencies pre-Bitcoin failed or were shut down. Bitcoin has been running without interruption since 2009 and no national government or regulator has the power to stop the software being run in every jurisdiction across the world.
 
 We have started work on decentralizing the two currently centralized elements (database and server) by using IPFS just like OpenBazaar. Limited resources and a desire to experiment with a simpler, better understood architecture led us to build the former first. It is challenging to fully decentralize application code and still provide a seamless user experience and expect OpenBazaar to be one of the first widely used applications to achieve it. The decentralized RiskBazaar application is both inspired by and utilizing the work done in building the OpenBazaar application. When you download the OpenBazaar application, you automatically install both a server and a client. The current version of OpenBazaar requires stores to have their servers continually running for users to be able to access your store. If you disconnect from the internet, your store is no longer visible to the rest of the network though there are third party hosting solutions to address this problem. The upcoming version 2.0 of OpenBazaar will be built on IPFS so other nodes will be able to seed your content.
 
- 
+![alt tag](
 
 
 ## Conclusion
