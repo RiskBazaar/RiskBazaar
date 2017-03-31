@@ -1,4 +1,6 @@
-# RiskBazaar – The internet for risk exchange			March 2017
+# RiskBazaar – The internet for risk exchange
+
+## March 2017
 
 Authors: Michael Folkson, Alexandra Groetsema, Nathan Basanese
 Email: michael, alexandra, nathan @riskbazaar.org
