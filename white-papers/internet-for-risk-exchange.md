@@ -46,7 +46,7 @@ The following diagram shows how conventional insurance works. An insurance compa
 
 The following is a typical RiskBazaar transaction. It is directly peer-to-peer; there are only two individuals who provide funds and those funds are locked on the Bitcoin blockchain rather than held by the insurance company.
 
- ![alt tag](
+ ![alt tag](https://github.com/RiskBazaar/RiskBazaar/blob/master/white-papers/images/multisig-transaction.png)
 
 
 We have built a prototype made up of a generalized wager platform and our first supported conventional insurance product: transaction insurance on OpenBazaar. 
