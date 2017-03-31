@@ -64,7 +64,7 @@ When the originator completes the form, it is obviously important that the wordi
 
 The events that can be speculated upon range from public events (e.g. result of US Presidential election) to private events (e.g. result of a table tennis game with a friend). The latter is more interesting to us because insurance contracts are generally focused on personal events rather than public events but as discussed previously we will not be restricting how users choose to use our platform. (Additionally it is more enjoyable for user testers to set up creative wagers than it is insurance products)
 
- ![alt tag](https://github.com/RiskBazaar/RiskBazaar/blob/master/white-papers/images/ob-transaction-insurance.png)
+ ![alt tag](https://github.com/RiskBazaar/RiskBazaar/blob/master/white-papers/images/contract-flow.png)
 
 
 Some contracts will be similar to the events of prediction markets such as Augur. However, RiskBazaar does not require the initial liquidity that a prediction market requires on set up as it can be settled with only two parties. Also Augur distributes the reporting function amongst a network of Reputation (REP) token holders. At the current time, users on RiskBazaar choose one particular moderator to adjudicate in the case of a dispute. This reduces the period of reporting from up to 8 weeks whilst the network collects all the necessary reports on Augur to less than a minute if the moderator responds instantly to a notification. However, it does concentrate power in the hands of the chosen moderator. RiskBazaar chooses to address this through a decentralized reputation system rather than collecting reports from a distributed network of moderators.
