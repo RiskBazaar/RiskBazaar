@@ -3,6 +3,7 @@
 This was originally published in August 2015.
 
 Michael Folkson
+
 michaelfolkson@gmail.com
 
 ## Abstract
