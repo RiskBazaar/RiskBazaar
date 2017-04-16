@@ -1,10 +1,10 @@
 # RiskBazaar – The internet for risk exchange
 
-April 2017 
+__April 2017__
 
-Authors: Michael Folkson, Alexandra Groetsema, Nathan Basanese
+__Authors: Michael Folkson, Alexandra Groetsema, Nathan Basanese__
 
-Email: michael, alexandra, nathan @riskbazaar.org
+__Email: michael, alexandra, nathan @riskbazaar.org__
 
 This is an update on *Building a risk market for the digital age* published in August 2015.
 
