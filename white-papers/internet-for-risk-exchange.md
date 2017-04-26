@@ -82,7 +82,7 @@ Buyers on OpenBazaar will have access to two optional layers of protection. The 
 
 
 
-Below is a screenshot of a completed form that the originator is able to submit to the counterparty (insurer) for review when purchasing transaction insurance on a OpenBazaar transaction.
+Below is a screenshot of a completed form that the originator is able to submit to the counterparty (insurer) for review when purchasing transaction insurance on an OpenBazaar transaction.
 
 ![alt tag](https://github.com/RiskBazaar/RiskBazaar/blob/master/white-papers/images/transaction-insurance-screenshot.png)
 
