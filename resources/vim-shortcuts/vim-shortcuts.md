@@ -1,6 +1,6 @@
 https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet/
 
-__Esc__ = get out of current mode into command mode
+Esc = get out of current mode into command mode
 
 i = insert text
 
